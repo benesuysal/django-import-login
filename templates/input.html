@@ -1,0 +1,16 @@
+ {% extends "layout.html" %}
+ 
+ {% block body %}
+
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input class="form-control" type="file" name="myfile" id="formFileMultiple" multiple>
+    <label for="formFileMultiple" class="form-label"></label>
+    <button type="submit">Upload</button>
+  </form>
+ 
+
+{% endblock body %}
+
+
