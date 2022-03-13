@@ -25,7 +25,7 @@ sys.path.append(os.path.dirname(SCRIPT_DIR))
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-o_osa&sfg@a(nm^jok@)0f=ui4ivf)^lsz1(4$wisrk7pdrvw8'
+SECRET_KEY = 'theManWhoSoldWorld'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
